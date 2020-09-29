@@ -1,45 +1,62 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Fawcett
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 2<br>
+**Conteúdo da Disciplina**: Grafos 2<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 17/0062686 |  Pedro Rodrigues Pereira |
+| 17/0008371 |  Daniel de Sousa Oliveira Melo Veras |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O Coronel Percy Harrison Fawcett foi um arqueólogo e explorador britânico que desapareceu ao organizar uma expedição para procurar por uma civilização perdida na Serra do Roncador, em Barra do Garças, no estado do Mato Grosso, Brasil.
+
+Ele se encontra na primeira posição do tabuleiro, seu objetivo é chegar a última posição e encontrar o tesouro. Sempre que você recarregar a página o Coronel pode achar ou não a civilização perdida, só depende de você.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+### Em busca do ouro
+
+![01](./docs/processo.jpg)
+
+### Fim da aventura
+
+![02](./docs/ouro.jpg)
+
+### Preso na selva
+
+![03](./docs/preso.jpg)
+
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Javascript<br>
+**Framework**: p5.js<br>
+<br>
+Para fazer uso do projeto se faz necessário possuir o Docker e Docker-compose.
+
+1. Primeiro passo é realizar o download do repositório com o seguinte comando:
+
+```
+$ git clone https://github.com/projeto-de-algoritmos/Grafos2_Fawcett.git
+```
+
+
+2. Após o download, acesse a pasta base do projeto:
+
+```
+$ cd Grafos2_Fawcett
+```
+
+3. Agora basta rodar o seguinte comando do docker
+
+```
+$ docker-compose up --build
+```
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Após a execução do container docker, se faz necessário abrir seu navegador de preferência e acessar o link:
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+**http://localhost:3000/**
 
-
-
-
+A partir desse ponto, o aplicativo já começa a rodar automaticamente. Gerando um resultado diferente cada vez que a página é atualizada.
